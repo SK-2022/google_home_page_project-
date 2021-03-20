@@ -2,6 +2,7 @@ header{
     font-family: arial, sans-serif;
     font-size: 13px;
     width: fit-content;
+    height:fit-content;
 }
 
 #top-nav-bar{
@@ -30,12 +31,14 @@ li a:hover{
 
 #google-centre-logo{
     position: relative; left: 700px; top: 200px;
+    justify-content: center;
 }
 
 body{
     font-family: arial, sans-serif;
     font-size: 14px;
     width: fit-content;
+    height: fit-content;
 }
 
 #search-bar{
@@ -58,4 +61,12 @@ body{
 
 #language-referral-button{
     position: relative; left: 770px; top: 250px;
+}
+
+#footer-lowest-level{
+    position: relative; top: 250px;
+    display:flex;
+    flex-direction:row;
+    list-style-type: none;
+    justify-content:space-evenly;
 }
