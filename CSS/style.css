@@ -1,72 +1,83 @@
-header{
-    font-family: arial, sans-serif;
-    font-size: 13px;
-    width: fit-content;
-    height:fit-content;
+header {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  width: fit-content;
+  height: fit-content;
 }
 
-#top-nav-bar{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    
+#top-nav-bar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-li{
-    float: left;
+li {
+  float: left;
 }
 
-li a{
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    position: relative; left: 1300px;
-    text-decoration: none ;
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  position: relative;
+  left: 1300px;
+  text-decoration: none;
 }
 
-li a:hover{
-    text-decoration: underline;
+li a:hover {
+  text-decoration: underline;
 }
 
-#google-centre-logo{
-    position: relative; left: 700px; top: 200px;
-    justify-content: center;
+#google-centre-logo {
+  position: relative;
+  left: 700px;
+  top: 200px;
+  justify-content: center;
 }
 
-body{
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    width: fit-content;
-    height: fit-content;
+body {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  width: fit-content;
+  height: fit-content;
 }
 
-#search-bar{
-    position: relative; left: 600px; top: 220px;
-    width: 487px;
-    height: 37px;
-    border-style:solid;
-    border-width: 1px;
-    border-radius: 9999px;
-    outline:none;
+#search-bar {
+  position: relative;
+  left: 600px;
+  top: 220px;
+  width: 487px;
+  height: 37px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 9999px;
+  outline: none;
 }
 
-#google-search-button{
-    position: relative; left: 640px; top: 250px;
+#google-search-button {
+  position: relative;
+  left: 640px;
+  top: 250px;
 }
 
-#I\'m-feeling-lucky-button{
-    position: relative; left: 950px; top: 220px;
+#I\'m-feeling-lucky-button {    
+  position: relative;
+  left: 950px;
+  top: 220px;
 }
 
-#language-referral-button{
-    position: relative; left: 770px; top: 250px;
+#language-referral-button {
+  position: relative;
+  left: 770px;
+  top: 250px;
 }
 
-#footer-lowest-level{
-    position: relative; top: 250px;
-    display:flex;
-    flex-direction:row;
-    list-style-type: none;
-    justify-content:space-evenly;
+#footer-lowest-level {
+  position: relative;
+  top: 250px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
 }
