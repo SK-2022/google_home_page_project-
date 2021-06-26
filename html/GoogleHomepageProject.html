@@ -7,48 +7,47 @@
     <title>Google</title>
   </head>
 
-  <header>
-    <!--Gmail, Sign in, Images and google apps icon-->
-    <ul id="top-nav-bar">
-      <li><a href="#">Gmail</a></li>
-      <li><a href="#">Images</a></li>
-      <li>
-        <a href="#"><img src="#" alt="application selelction icon" /></a>
-      </li>
-      <li>
-        <a href="#"><button type="submit">Sign-in</button></a>
-      </li>
-    </ul>
-  </header>
   <body>
+    <header>
+      <!--Gmail, Sign in, Images and google apps icon-->
+      <div class="nav-bar">
+        <div><a href="#" class="link">Gmail</a></div>
+        <div><a href="#" class="link">Images</a></div>
+        <div>
+          <img src="../images/google-apps-logo.svg" alt="googleappslogo" class="link" />
+        </div>
+        <div>
+          <img src="../images/account-icon.jpg" alt="account-icon" class="account-icon-link">
+        </div>
+      </div>
+    </header>
     <img
-      id="google-centre-logo"
-      src="../images/googlecentrelogo.png"
+      class="google-centre-logo"
+      src="../images/google-center-logo.png"
       alt="Google logo"
     />
     <form action="#">
+      <!--Google search bar-->
       <input
         type="search"
         placeholder="What're you looking for?"
-        id="search-bar"
+        class="search-bar"
       />
     </form>
 
-    <div id="google-search-button">Google search</div>
-    <div id="I'm-feeling-lucky-button">I'm Feeling Lucky</div>
-    <div id="language-referral-button">
+    <div class="btn-under-search-bar">Google search</div>
+    <div class="btn-under-search-bar">I'm Feeling Lucky</div>
+    <div class="language-change-option">
       Google offered in : <a href="https://www.google.com/?hl=ja">日本語</a>
     </div>
+    <footer class="footer">
+      <div class="unordered-list">
+        <div>Googleについて</div>
+        <div>広告</div>
+        <div>ビジネス</div>
+        <div>検索の仕組み</div>
+      </div>
+    </footer>
   </body>
-  <footer>
-    <div>日本</div>
-    <div>
-      <ul id="footer-lowest-level">
-        <li>Googleについて</li>
-        <li>広告</li>
-        <li>ビジネス</li>
-        <li>検索の仕組み</li>
-      </ul>
-    </div>
-  </footer>
+  
 </html>
