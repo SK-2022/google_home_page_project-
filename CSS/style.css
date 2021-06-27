@@ -17,11 +17,28 @@ body {
 }
 
 .link {
-    text-decoration:none;
-    padding-left: 15px;
+  text-decoration: none;
+  padding-left: 15px;
+  color: #222;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .account-icon-link {
-    border-radius: 50%;
-    padding: 0px 15px;
-}   
+  border-radius: 50%;
+  padding: 0px 15px;
+}
+
+.google-center-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-bar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
