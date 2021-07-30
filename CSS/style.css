@@ -49,9 +49,30 @@ a:hover {
 }
 
 .footer-container {
+  background-color: #ddd;
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #ddd;
+  flex: 1;
+  margin: 0;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.footer-container-bottom-half {
+.footer-left-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-right-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-items {
+  display: block;
+  padding: 10px 0 10px 30px;
 }
