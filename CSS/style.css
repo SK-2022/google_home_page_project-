@@ -21,7 +21,7 @@ body {
   align-items: center;
 }
 
-.link {
+.nav-bar-link {
   text-decoration: none;
   padding-left: 15px;
   color: #222;
@@ -49,7 +49,7 @@ a:hover {
 }
 
 .footer-container {
-  background-color: #ddd;
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -75,4 +75,6 @@ a:hover {
 .footer-items {
   display: block;
   padding: 10px 0 10px 30px;
+  text-decoration: none;
+  color: grey;
 }
